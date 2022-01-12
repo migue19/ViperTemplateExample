@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func showModule(_ sender: Any) {
+        let home = HomeRouter()
+        self.present(home.view, animated: true, completion: nil)
+    }
+    
 }
 
