@@ -18,6 +18,5 @@ class ViewController: UIViewController {
         let home = HomeRouter()
         self.present(home.view, animated: true, completion: nil)
     }
-    
-}
 
+}
