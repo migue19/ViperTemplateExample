@@ -18,6 +18,6 @@ class HomeVC: UIViewController {
         testLabel.text = "Duda"
     }
 }
-///Protocolo para recibir datos del presenter.
+/// Protocolo para recibir datos del presenter.
 extension HomeVC: HomeViewProtocol {
 }
